@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, MetaData, String, Table, create_engine
+from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.orm import declarative_base
 
 db_url = "sqlite:///database.db"
